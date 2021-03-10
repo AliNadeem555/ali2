@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+#one,#two,#three{
+display: none;
+
+}
+#one{
+height: 200px;
+width: 250px;
+background-color: brown;
+margin: 3px;
+
+}
+#two{
+height: 200px;
+width: 250px;
+background-color: darkgreen;
+margin: 3px;
+}
+#three{
+height: 200px;
+width: 250px;
+background-color:cyan ;
+margin: 3px;
+}
+ @media screen  and (min-width: 300px) {
+     #one{
+         display: inline-block;
+     }
+ }
+    @media screen  and ( min-width: 500px) {
+        #two{
+            display: inline-block;
+        }
+    }
+@media screen  and ( min-width: 700px) {
+ #three{
+     display: inline-block;
+ }   
+}
+    
+
+
+
+
+</style>
+
+</head>
+<body>
+  
+<div id="one">A</div>
+<div id="two">B</div>
+<div id="three">C</div>
+  
+</body>
+</html>
